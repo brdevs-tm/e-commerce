@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/pages/index/index.css"
+    />
+  </head>
+  <body>
+    <div class="joinModal">
+      <div class="wrapper">
+        <svg
+          onclick="document.querySelector('.joinModal').style.display = 'none'"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M18.3536 5.64645C18.5488 5.84171 18.5488 6.15829 18.3536 6.35355L6.35355 18.3536C6.15829 18.5488 5.84171 18.5488 5.64645 18.3536C5.45118 18.1583 5.45118 17.8417 5.64645 17.6464L17.6464 5.64645C17.8417 5.45118 18.1583 5.45118 18.3536 5.64645Z"
+            fill="#414141"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.64645 5.64645C5.84171 5.45118 6.15829 5.45118 6.35355 5.64645L18.3536 17.6464C18.5488 17.8417 18.5488 18.1583 18.3536 18.3536C18.1583 18.5488 17.8417 18.5488 17.6464 18.3536L5.64645 6.35355C5.45118 6.15829 5.45118 5.84171 5.64645 5.64645Z"
+            fill="#414141"
+          />
+        </svg>
+        <h1>Вход</h1>
+        <label for="logName">Телефон</label>
+        <input type="text" name="" id="logName" placeholder="name" />
+        <input type="file" name="" id="logImage" />
+        <button class="loginBtn">Вход</button>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <nav class="navbar container">
+          <div class="nav-left">
+            <div class="logo">
+              <a href="#" class="logo-link"
+                ><img src="assets/images/home/nav-logo.png" alt="logo" /><span
+                  >СЕВЕРЯНОЧКА</span
+                ></a
+              >
+            </div>
+            <div class="goods-category">
+              <button>
+                <img src="assets/images/home/icons/catalogue.svg" alt="" /><span
+                  >Каталог</span
+                >
+              </button>
+              <input
+                type="search"
+                placeholder="Найти товар"
+                name="search"
+                id="search-goods"
+              />
+            </div>
+          </div>
+          <div class="nav-right">
+            <div class="controlling">
+              <ul class="control">
+                <li class="control-elements">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/icons/catalogue(2).svg"
+                      alt="catalogue"
+                    />
+                    <span>Каталог</span></a
+                  >
+                </li>
+                <li class="control-elements">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/icons/like.svg"
+                      alt="favourites"
+                    /><span>Избранное</span></a
+                  >
+                </li>
+                <li class="control-elements">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/icons/goods.svg"
+                      alt="goods"
+                    /><span>Продукты</span></a
+                  >
+                </li>
+                <li class="control-elements">
+                  <a href="#"
+                    ><img
+                      src="assets/images/home/icons/shopping-cart.svg"
+                      alt="shopping-cart"
+                    /><span>Корзина</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="signing">
+              <a href="#" class="avatar"
+                ><img
+                  src="assets/images/home/navbar/avatar.svg"
+                  alt="avatar" /><span>Алексей</span
+                ><button>
+                  <img
+                    src="assets/images/home/icons/arrow_down.svg"
+                    alt="arrow"
+                  /></button
+              ></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="home">
+        <div class="container home-container">
+          <div class="home-left">
+            <img
+              src="assets/images/home/navbar/home/left.png"
+              alt="jpg
+            "
+            />
+          </div>
+          <div class="home-right">
+            <span>Доставка бесплатно от 1000 ₽</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main container">
+        <div class="stock">
+          <div class="stock-header">
+            <span>Акции</span>
+            <button class="stock-all-products">
+              <span>Все продукты</span
+              ><img
+                src="assets/images/home/icons/arrow_right.svg"
+                alt="arrow"
+              />
+            </button>
+          </div>
+          <div class="stock-products-row">
+            <div class="stock-product">
+              <div class="stock-product-body">
+                <img
+                  src="./assets/images/home/main/stock/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="stock-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="stock-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="stock-product">
+              <div class="stock-product-body">
+                <img
+                  src="./assets/images/home/main/stock/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="stock-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="stock-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="stock-product">
+              <div class="stock-product-body">
+                <img
+                  src="./assets/images/home/main/stock/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="stock-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="stock-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="stock-product">
+              <div class="stock-product-body">
+                <img
+                  src="./assets/images/home/main/stock/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="stock-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="stock-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="new-goods">
+          <div class="new-goods-header">
+            <span>Новинки</span>
+            <button class="new-goods-all-products">
+              <span>Все продукты</span
+              ><img
+                src="assets/images/home/icons/arrow_right.svg"
+                alt="arrow"
+              />
+            </button>
+          </div>
+          <div class="new-goods-products-row">
+            <div class="new-goods-product">
+              <div class="new-goods-product-body">
+                <img
+                  src="./assets/images/home/main/new__goods/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="new-goods-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="new-goods-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="new-goods-product">
+              <div class="new-goods-product-body">
+                <img
+                  src="./assets/images/home/main/new__goods/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="new-goods-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="new-goods-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="new-goods-product">
+              <div class="new-goods-product-body">
+                <img
+                  src="./assets/images/home/main/new__goods/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="new-goods-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="new-goods-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="new-goods-product">
+              <div class="new-goods-product-body">
+                <img
+                  src="./assets/images/home/main/new__goods/cards/1.png"
+                  alt="product"
+                />
+              </div>
+              <div class="new-goods-product-footer">
+                <div class="price">
+                  <div class="by-card">
+                    <span>44.50</span>
+                    <p>by-card</p>
+                  </div>
+                  <div class="by-cash">
+                    <span>50.50</span>
+                    <p>by cash</p>
+                  </div>
+                </div>
+                <div class="new-goods-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="add-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="special-recommends">
+          <div class="special-recommends-header">
+            <span> Специальные предложения </span>
+          </div>
+          <div class="recommend-cards">
+            <img
+              src="./assets/images/home/main/recommend/left-recommend.png"
+              alt=""
+            />
+            <img
+              src="./assets/images/home/main/recommend/right-recommend.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="our-market">
+          <div class="our-market-header">
+            <h1>Наши магазины</h1>
+          </div>
+          <div class="market-station-names">
+            <div class="first-station"><span>п.Щельяюр</span></div>
+            <div class="second-station"><span>д.Вертеп</span></div>
+            <div class="third-station"><span>с.Краснобор</span></div>
+            <div class="fourth-station"><span>д.Диюр</span></div>
+          </div>
+          <div
+            style="
+              max-width: 100%;
+              list-style: none;
+              transition: none;
+              overflow: hidden;
+              width: 1280px;
+              height: 354px;
+            "
+          >
+            <div
+              id="google-maps-canvas"
+              style="height: 100%; width: 100%; max-width: 100%"
+            >
+              <iframe
+                style="height: 100%; width: 100%; border: 0"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=Toshkani+backon,+улица+Умид,+Tashkent,+Uzbekistan&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a
+              class="googlemaps-made"
+              href="https://www.bootstrapskins.com/themes"
+              id="grab-map-data"
+              >premium bootstrap themes</a
+            ><style>
+              #google-maps-canvas .text-marker {
+              }
+              .map-generator {
+                max-width: 100%;
+                max-height: 100%;
+                background: none;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="articles">
+          <div class="articles-header">
+            <span>Статьи</span>
+            <button class="articles-all-products">
+              <span>Все cтатьи</span
+              ><img
+                src="assets/images/home/icons/arrow_right.svg"
+                alt="arrow"
+              />
+            </button>
+          </div>
+          <div class="articles-products-row">
+            <div class="articles-product">
+              <div class="articles-product-body">
+                <img
+                  src="./assets/images/home/articles/first.png"
+                  alt="product"
+                />
+              </div>
+              <div class="articles-product-footer">
+                <div class="article-date"><span>02.01.2024</span></div>
+                <div class="articles-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="more-about-article">Подробнее</button>
+              </div>
+            </div>
+            <div class="articles-product">
+              <div class="articles-product-body">
+                <img
+                  src="./assets/images/home/main/articles/second.png"
+                  alt="product"
+                />
+              </div>
+              <div class="articles-product-footer">
+                <div class="article-date"><span>02.01.2024</span></div>
+                <div class="articles-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="more-about-article">Подробнее</button>
+              </div>
+            </div>
+            <div class="articles-product">
+              <div class="articles-product-body">
+                <img
+                  src="./assets/images/home/main/articles/third.png"
+                  alt="product"
+                />
+              </div>
+              <div class="articles-product-footer">
+                <div class="article-date"><span>02.01.2024</span></div>
+                <div class="articles-product-desc">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <button class="more-about-article">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-section">
+            <div class="footer-left">
+              <div class="footer-logo">
+                <img
+                  src="./assets/images/home/footer-logo.png"
+                  alt="footer-logo"
+                />
+              </div>
+              <div class="footer-links">
+                <ul class="footer-links">
+                  <li class="footer-link"><a href="#">О компании</a></li>
+                  <li class="footer-link"><a href="#">Контакты</a></li>
+                  <li class="footer-link"><a href="#">Вакансии</a></li>
+                  <li class="footer-link"><a href="#">Статьи</a></li>
+                  <li class="footer-link">
+                    <a href="#">Политика обработки персональных данных</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-right">
+              <div class="social-linking">
+                <div class="socials">
+                  <a href=""
+                    ><img
+                      src="./assets/images/home/icons/instagram.svg"
+                      alt="" /></a
+                  ><a href=""
+                    ><img
+                      src="./assets/images/home/icons/vkontakte.svg"
+                      alt="" /></a
+                  ><a href=""
+                    ><img
+                      src="./assets/images/home/icons/facebook.svg"
+                      alt="" /></a
+                  ><a href=""
+                    ><img src="./assets/images/home/icons/ok.svg" alt=""
+                  /></a>
+                </div>
+                <div class="phone">
+                  <a href="tel:+998907917119"
+                    ><img
+                      src="./assets/images/home/icons/phone.svg"
+                      alt="phone"
+                    />
+                    <span>8 90 791 71 19</span></a
+                  >
+                </div>
+              </div>
+              <div class="coder">
+                <h1>Coder: <span>hamidov developer</span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/pages/index/index.js"></script>
+    <script src="./js/products-data.js"></script>
+  </body>
+</html>
