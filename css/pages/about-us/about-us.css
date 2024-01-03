@@ -1,1 +1,138 @@
 @import url("../../global.css");
+
+main {
+  padding-top: 40px;
+  background: #fbf8ec;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.breadcrumb a:first-child {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.breadcrumb a:last-child {
+  color: #8f8f8f;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.about-header {
+  background: url("../../../assets/images/home/pages/about-us/about-us-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.about-header-left {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+}
+
+.about-header-left h1 {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about-header-left span {
+  max-width: 500px;
+  color: #f63;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about-right img {
+  width: 50%;
+  max-width: 620px;
+}
+
+.about-informations {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.information {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 315px;
+}
+
+.informations span {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.informations p {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.gratitude {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.gratitude-text {
+  padding: 30px 40px;
+  border-radius: 16px;
+  background: #e5ffde;
+}
+
+.gratitude-text span {
+  color: #70c05b;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}

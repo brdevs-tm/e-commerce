@@ -3,6 +3,7 @@
 main {
   padding-top: 80px;
   background: #fbf8ec;
+  margin-top: 80px;
 }
 
 .main {
@@ -17,7 +18,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-top: 40px;
   margin-bottom: 80px;
 }
 
