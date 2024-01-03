@@ -1,1 +1,156 @@
 @import url("../../global.css");
+
+main {
+  padding-top: 80px;
+  background: #fbf8ec;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* all-products */
+
+.all-products {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.all-products-header {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.all-products-header span {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+
+.all-products {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+
+.all-products-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.all-products-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.all-products-card-body {
+  position: relative;
+}
+
+.all-products-card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* all-products Responsive */
+
+/* New goods Responsive */
+
+@media (max-width: 1240px) {
+  .all-products-row {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+  }
+}
+
+/* new goods */
+
+.new-goods {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.new-goods-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-goods-header span {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+
+.new-goods-all-products {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+.new-goods-all-products span {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+
+.new-goods-products-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-goods-product {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.new-goods-product-body {
+  position: relative;
+}
+
+.new-goods-product-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* New goods Responsive */
+
+@media (max-width: 1240px) {
+  .new-goods-products-row {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
